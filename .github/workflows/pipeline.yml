@@ -25,3 +25,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "xiao-pokedex"
           heroku_email: "nerohoop@gmail.com"
+          healthcheck: "https://xiao-pokedex.herokuapp.com/health"
